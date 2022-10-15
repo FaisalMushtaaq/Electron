@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Test App</title>
+  </head>
+  <body>
+  <br>
+    Enter URL: <input id="title"/>
+    <button id="btn" type="button">Download</button>
+    <br><br>
+      <span>File Size: </span><span id="downloadedFile">0</span> / <span id="total">0</span>
+      <br><span>Download Speed: </span><span id="speed"></span>
+    
+    <script src="./renderer.js"></script>
+
+  </body>
+</html>
